@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title> :: Ataraxia Wiki</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ABOUT LIFEPO4 Can be discharged regularly down to 20% (vs 50% for Lead Acid)
+Higher charge rating. 0.5C recommended. Example 100Ah battery charged with 50Amps in 2hrs
+Discharge 100% down to 20%: 2,500 cycles. 100% to 30% 3000 cycles. 100% to 50% 5000 cycles
+Around 92% Efficient
+Like being in the 20% to 85% charge range
+CHARGING Bulk Stage: Constant Current applied until battery reaches Absorption Value Voltage
+Absorption: Constant Voltage applied for 2hrs of Absorption: Voltage held steady and the current will start going down." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://ataraxiawiki.github.io/res/solar-about-lithium/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://ataraxiawiki.github.io/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://ataraxiawiki.github.io/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="https://ataraxiawiki.github.io/img/theme-colors/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="ABOUT LIFEPO4 Can be discharged regularly down to 20% (vs 50% for Lead Acid)
+Higher charge rating. 0.5C recommended. Example 100Ah battery charged with 50Amps in 2hrs
+Discharge 100% down to 20%: 2,500 cycles. 100% to 30% 3000 cycles. 100% to 50% 5000 cycles
+Around 92% Efficient
+Like being in the 20% to 85% charge range
+CHARGING Bulk Stage: Constant Current applied until battery reaches Absorption Value Voltage
+Absorption: Constant Voltage applied for 2hrs of Absorption: Voltage held steady and the current will start going down." />
+<meta property="og:url" content="https://ataraxiawiki.github.io/res/solar-about-lithium/" />
+<meta property="og:site_name" content="Ataraxia Wiki" />
+
+  
+    <meta property="og:image" content="https://ataraxiawiki.github.io/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://ataraxiawiki.github.io/">
+  <div class="logo">
+    ATARAXIA WIKI
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://ataraxiawiki.github.io/res/solar-about-lithium/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+  
+
+
+  
+  Parent is <a href="https://ataraxiawiki.github.io/res/">https://ataraxiawiki.github.io/res/</a><br>
+  Next is <a href="https://ataraxiawiki.github.io/res/neorg-notes/">https://ataraxiawiki.github.io/res/neorg-notes/</a><br>
+  Prev is <a href="https://ataraxiawiki.github.io/res/solar-equipment/">https://ataraxiawiki.github.io/res/solar-equipment/</a><br>
+
+  <div class="post-content"><div>
+        <h1 id="about-lifepo4">ABOUT LIFEPO4<a href="#about-lifepo4" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Can be discharged regularly down to 20% (vs 50% for Lead Acid)</p>
+<p>Higher charge rating. 0.5C recommended. Example 100Ah battery charged with 50Amps in 2hrs</p>
+<p>Discharge 100% down to 20%: 2,500 cycles. 100% to 30% 3000 cycles. 100% to 50% 5000 cycles</p>
+<p>Around 92% Efficient</p>
+<p>Like being in the 20% to 85% charge range</p>
+<h2 id="charging">CHARGING<a href="#charging" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><em>Bulk Stage:</em> Constant Current applied until battery reaches Absorption Value Voltage</p>
+<p><em>Absorption:</em> Constant Voltage applied for 2hrs of Absorption: Voltage held steady and the current will start going down.</p>
+<p><em>Float:</em> After 2hrs of Absorption, battery goes into Float state. Charge Controller Turns off.</p>
+<h2 id="absorption-phase-and-tail-current">ABSORPTION PHASE AND TAIL CURRENT<a href="#absorption-phase-and-tail-current" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Lithium Doesn&rsquo;t need the Absorption Phase! When the charge reaches 28.4 can be considered fully charged (check this against my battery).
+Synchronization of the battery monitor can thus be at the end of the Bulk Phase.
+Take the Absorption voltage minus 0.2 V and a Tail Current of 5% for 5 minutes. Battery can be considered full.</p>
+<p>Tail Current: Wait for the battery to go into Float. Wait 10 minutes and see how much current is flowing into the battery. That is the Tail Current. Set tail current on the BMV to slightly higher than this value.</p>
+<h2 id="low-voltage-disconnect">LOW VOLTAGE DISCONNECT<a href="#low-voltage-disconnect" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Discharge floor sent to 10 to 15% on the BMV Monitor</p>
+<h2 id="low-temperature">LOW TEMPERATURE<a href="#low-temperature" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Battery must not be charged below 32F. Discharge okay.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
