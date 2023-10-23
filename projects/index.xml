@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ataraxia Wiki</title>
-    <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/</link>
+    <link>https://kaimcbride.github.io/projects/</link>
     <description>Recent content on Ataraxia Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kaimcbride.github.io/ataraxiawiki.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://kaimcbride.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/battery-mount/</link>
+      <link>https://kaimcbride.github.io/projects/battery-mount/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/battery-mount/</guid>
+      <guid>https://kaimcbride.github.io/projects/battery-mount/</guid>
       <description>Improve Trucky Battery Create a better way to secure the battery in trucky. Perhaps this means getting a newer battery that is sealed.
 Battery Size and Spec BCI Group Size 24F 710 CCA 885 CA 120 Reserve 70Ah </description>
       <content>&lt;h1 id=&#34;improve-trucky-battery&#34;&gt;Improve Trucky Battery&lt;/h1&gt;
@@ -30,10 +30,10 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/cabin-proj/</link>
+      <link>https://kaimcbride.github.io/projects/cabin-proj/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/cabin-proj/</guid>
+      <guid>https://kaimcbride.github.io/projects/cabin-proj/</guid>
       <description>CABIN PROJECTS MASTER LIST FALL [o] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary prime and paint the cabinets trim shelves and doors to final size What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?</description>
       <content>&lt;h1 id=&#34;cabin-projects-master-list&#34;&gt;CABIN PROJECTS MASTER LIST&lt;/h1&gt;
 &lt;h2 id=&#34;fall&#34;&gt;FALL&lt;/h2&gt;
@@ -114,10 +114,10 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/cv-axle/</link>
+      <link>https://kaimcbride.github.io/projects/cv-axle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/cv-axle/</guid>
+      <guid>https://kaimcbride.github.io/projects/cv-axle/</guid>
       <description>Fix CV Axle This might be as simple as ordering a CV Axle rebuild kit</description>
       <content>&lt;h1 id=&#34;fix-cv-axle&#34;&gt;Fix CV Axle&lt;/h1&gt;
 &lt;p&gt;This might be as simple as ordering a CV Axle rebuild kit&lt;/p&gt;
@@ -126,10 +126,10 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/home-assistant/</link>
+      <link>https://kaimcbride.github.io/projects/home-assistant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/home-assistant/</guid>
+      <guid>https://kaimcbride.github.io/projects/home-assistant/</guid>
       <description>HOME ASSISTANT PROJECTS Place to track things to be configured / added to the Home Assistant Server
 TODO find permanent home for Khadas make sure that backups are being automated copy backups to another device or cloud </description>
       <content>&lt;h1 id=&#34;home-assistant-projects&#34;&gt;HOME ASSISTANT PROJECTS&lt;/h1&gt;
@@ -145,10 +145,10 @@ TODO find permanent home for Khadas make sure that backups are being automated c
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/hot-water-system/</link>
+      <link>https://kaimcbride.github.io/projects/hot-water-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/hot-water-system/</guid>
+      <guid>https://kaimcbride.github.io/projects/hot-water-system/</guid>
       <description>HOT WATER SYSTEM hint: Use C-Space to create / toggle the TODO items
 TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test system with relay in shop to ensure it works as expected Connect Plumbing under shop bench to tank Run 24V connection via relay to control hot water tank experiment with running both elements or just one come up with a plan on how often to turn it on and run it order more 8Ga (i think) wire create document describing the points in the plumbing system like the solar system is described </description>
       <content>&lt;h1 id=&#34;hot-water-system&#34;&gt;HOT WATER SYSTEM&lt;/h1&gt;
@@ -173,10 +173,10 @@ TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/lower-radiator-hose/</link>
+      <link>https://kaimcbride.github.io/projects/lower-radiator-hose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/lower-radiator-hose/</guid>
+      <guid>https://kaimcbride.github.io/projects/lower-radiator-hose/</guid>
       <description>Lower Radiator Hose Replace lower radiator hose (or both) on recommendation from Big O. Might be a good time to also drain the fluids and replace with Toyota specific</description>
       <content>&lt;h1 id=&#34;lower-radiator-hose&#34;&gt;Lower Radiator Hose&lt;/h1&gt;
 &lt;p&gt;Replace lower radiator hose (or both) on recommendation from Big O.
@@ -186,10 +186,10 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/mouse-prevention/</link>
+      <link>https://kaimcbride.github.io/projects/mouse-prevention/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/mouse-prevention/</guid>
+      <guid>https://kaimcbride.github.io/projects/mouse-prevention/</guid>
       <description>Keep Mice from Trucky Take off left and right side panels attach screen to opening in areas to prevent mice rivet or glue? buy peppermint essential oil and spray on thing </description>
       <content>&lt;h1 id=&#34;keep-mice-from-trucky&#34;&gt;Keep Mice from Trucky&lt;/h1&gt;
 &lt;ul&gt;
@@ -203,10 +203,10 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/paint-the-truck/</link>
+      <link>https://kaimcbride.github.io/projects/paint-the-truck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/paint-the-truck/</guid>
+      <guid>https://kaimcbride.github.io/projects/paint-the-truck/</guid>
       <description>PAINT THE TRUCK Thinking of designs to paint on the truck</description>
       <content>&lt;h1 id=&#34;paint-the-truck&#34;&gt;PAINT THE TRUCK&lt;/h1&gt;
 &lt;p&gt;Thinking of designs to paint on the truck&lt;/p&gt;
@@ -215,10 +215,10 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/rack-pinion/</link>
+      <link>https://kaimcbride.github.io/projects/rack-pinion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/rack-pinion/</guid>
+      <guid>https://kaimcbride.github.io/projects/rack-pinion/</guid>
       <description>Rack and Pinion Repair which boot is ripped? is it leaking ? Can I just but a rebuild kit? </description>
       <content>&lt;h1 id=&#34;rack-and-pinion-repair&#34;&gt;Rack and Pinion Repair&lt;/h1&gt;
 &lt;ul&gt;
@@ -231,10 +231,10 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/rear-brakes/</link>
+      <link>https://kaimcbride.github.io/projects/rear-brakes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/rear-brakes/</guid>
+      <guid>https://kaimcbride.github.io/projects/rear-brakes/</guid>
       <description>Rear Brakes What is the test to see if the drum needs replacing?
 What are the right pads for this?</description>
       <content>&lt;h1 id=&#34;rear-brakes&#34;&gt;Rear Brakes&lt;/h1&gt;
@@ -245,10 +245,10 @@ What are the right pads for this?</description>
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/tote-bag/</link>
+      <link>https://kaimcbride.github.io/projects/tote-bag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/tote-bag/</guid>
+      <guid>https://kaimcbride.github.io/projects/tote-bag/</guid>
       <description>TOTE BAG IDEAS Inner pocket with magnetic closure Peak Design attachment for keys large enough for the computer to comfortable fit inside </description>
       <content>&lt;h1 id=&#34;tote-bag-ideas&#34;&gt;TOTE BAG IDEAS&lt;/h1&gt;
 &lt;ul&gt;
@@ -261,10 +261,10 @@ What are the right pads for this?</description>
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/trucky-misc/</link>
+      <link>https://kaimcbride.github.io/projects/trucky-misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/trucky-misc/</guid>
+      <guid>https://kaimcbride.github.io/projects/trucky-misc/</guid>
       <description>SMALL ITEMS TO FIX ON TRUCKY re-install the cup holder etc&amp;hellip; inside Drain ATF and install Toyoto ATF </description>
       <content>&lt;h1 id=&#34;small-items-to-fix-on-trucky&#34;&gt;SMALL ITEMS TO FIX ON TRUCKY&lt;/h1&gt;
 &lt;ul&gt;
@@ -276,10 +276,10 @@ What are the right pads for this?</description>
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/upper-control-arm/</link>
+      <link>https://kaimcbride.github.io/projects/upper-control-arm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/upper-control-arm/</guid>
+      <guid>https://kaimcbride.github.io/projects/upper-control-arm/</guid>
       <description>Upper Control Arm Testing Big O thought that the right one needed to be replaced. Test.</description>
       <content>&lt;h1 id=&#34;upper-control-arm-testing&#34;&gt;Upper Control Arm Testing&lt;/h1&gt;
 &lt;p&gt;Big O thought that the right one needed to be replaced.
@@ -289,10 +289,10 @@ Test.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-cabin/</link>
+      <link>https://kaimcbride.github.io/projects/wemos-cabin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-cabin/</guid>
+      <guid>https://kaimcbride.github.io/projects/wemos-cabin/</guid>
       <description>CABIN WEMOS D1 MINI CURRENT SENSORS BME280 Temp, Humidity, Pressure TODO find a home for the sensor where it won&amp;rsquo;t get unplugged / not in the way Give it control over some sort of light in the future </description>
       <content>&lt;h1 id=&#34;cabin-wemos-d1-mini&#34;&gt;CABIN WEMOS D1 MINI&lt;/h1&gt;
 &lt;h2 id=&#34;current-sensors&#34;&gt;CURRENT SENSORS&lt;/h2&gt;
@@ -309,10 +309,10 @@ Test.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-porch/</link>
+      <link>https://kaimcbride.github.io/projects/wemos-porch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-porch/</guid>
+      <guid>https://kaimcbride.github.io/projects/wemos-porch/</guid>
       <description>WEMOS ON THE PORCH </description>
       <content>&lt;h1 id=&#34;wemos-on-the-porch&#34;&gt;WEMOS ON THE PORCH&lt;/h1&gt;
 </content>
@@ -320,10 +320,10 @@ Test.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-werkstatt/</link>
+      <link>https://kaimcbride.github.io/projects/wemos-werkstatt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kaimcbride.github.io/ataraxiawiki.github.io/projects/wemos-werkstatt/</guid>
+      <guid>https://kaimcbride.github.io/projects/wemos-werkstatt/</guid>
       <description>WEMOS IN DER WERKSTATT </description>
       <content>&lt;h1 id=&#34;wemos-in-der-werkstatt&#34;&gt;WEMOS IN DER WERKSTATT&lt;/h1&gt;
 </content>
