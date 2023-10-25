@@ -411,7 +411,7 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/cabin-proj/</guid>
-      <description>CABIN PROJECTS MASTER LIST FALL [o] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Sand countertop after cement cures prime and paint the cabinets trim shelves and doors to final size What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?</description>
+      <description>CABIN PROJECTS MASTER LIST FALL [o] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets [.</description>
       <content>&lt;h1 id=&#34;cabin-projects-master-list&#34;&gt;CABIN PROJECTS MASTER LIST&lt;/h1&gt;
 &lt;h2 id=&#34;fall&#34;&gt;FALL&lt;/h2&gt;
 &lt;ul&gt;
@@ -421,12 +421,15 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make form for the concrete&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; purchase concrete of the correct type&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; decide on the type of hinges to use and buy jig if necessary&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy Cement to fill in the holes on the countertop edge&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy Cement to fill in the holes on the countertop edge&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mix and spread concrete filler on countertop edges&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand countertop after cement cures&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; prime and paint the cabinets&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim shelves and doors to final size
+&lt;li&gt;[.] trim shelves and doors to final size
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do a test with small pieces of plywood&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order forstner bit 35mm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; hang doors
@@ -467,6 +470,14 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; North Corbels&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; DC Power to Porch:
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 12V line from shop to kitchen area&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 12V line to cabin side of porch for WeMos and router&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cat 6 extender for line under house up to new router position&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order 12V LED strips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;winter&#34;&gt;WINTER&lt;/h2&gt;
 &lt;ul&gt;
@@ -716,8 +727,15 @@ Test.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/wemos-porch/</guid>
-      <description>WEMOS ON THE PORCH </description>
+      <description>WEMOS ON THE PORCH TODO run temp sensor down to the hot water tank exterior make case to keep water off of board solder up with temp/humidity/pressure sensor run 12V DC line on that side of the porch </description>
       <content>&lt;h1 id=&#34;wemos-on-the-porch&#34;&gt;WEMOS ON THE PORCH&lt;/h1&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; run temp sensor down to the hot water tank exterior&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make case to keep water off of board&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; solder up with temp/humidity/pressure sensor&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; run 12V DC line on that side of the porch&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
