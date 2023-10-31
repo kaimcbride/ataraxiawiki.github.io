@@ -92,6 +92,7 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; float for hot water tank&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;solar-upgrade&#34;&gt;Solar Upgrade&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; North Corbels&lt;/li&gt;
 &lt;li&gt;[.] DC Power to Porch:
 &lt;ul&gt;
