@@ -204,6 +204,34 @@ values: none; default-on; heartbeat&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>https://kaimcbride.github.io/res/lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/res/lua/</guid>
+      <description>NOTES ON LEARNING LUA USEFUL VIDEOS &amp;amp; DOCS Offical Lua Manual v5.4 Lua Guide - NVIM Docs Lua Tutorial with Derek Banas. 57min
+BASICS VARIABLES foo = &amp;ldquo;a string&amp;rdquo; foo = 34.5
+access as &amp;lsquo;foo&amp;rsquo;, not $foo
+STRINGS NEOVIM PLUGINS How to Write Neovim Plugins in Lua </description>
+      <content>&lt;h1 id=&#34;notes-on-learning-lua&#34;&gt;NOTES ON LEARNING LUA&lt;/h1&gt;
+&lt;h2 id=&#34;useful-videos--docs&#34;&gt;USEFUL VIDEOS &amp;amp; DOCS&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.lua.org/manual/5.4/&#34;&gt;Offical Lua Manual v5.4&lt;/a&gt;
+&lt;a href=&#34;https://neovim.io/doc/user/lua-guide.html&#34;&gt;Lua Guide - NVIM Docs&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=iMacxZQMPXs&#34;&gt;Lua Tutorial&lt;/a&gt; with Derek Banas. 57min&lt;/p&gt;
+&lt;h2 id=&#34;basics&#34;&gt;BASICS&lt;/h2&gt;
+&lt;h3 id=&#34;variables&#34;&gt;VARIABLES&lt;/h3&gt;
+&lt;p&gt;foo = &amp;ldquo;a string&amp;rdquo;
+foo = 34.5&lt;/p&gt;
+&lt;p&gt;access as &amp;lsquo;foo&amp;rsquo;, not $foo&lt;/p&gt;
+&lt;h3 id=&#34;strings&#34;&gt;STRINGS&lt;/h3&gt;
+&lt;h2 id=&#34;neovim-plugins&#34;&gt;NEOVIM PLUGINS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/2nit/how-to-write-neovim-plugins-in-lua-5cca&#34;&gt;How to Write Neovim Plugins in Lua&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kaimcbride.github.io/res/neorg-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -220,6 +248,225 @@ values: none; default-on; heartbeat&lt;/p&gt;
 &lt;li&gt;Leader-nm Neorg inject-metadata&lt;/li&gt;
 &lt;li&gt;Leader-ni Neorg index&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaimcbride.github.io/res/neovim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/res/neovim/</guid>
+      <description>NEOVIM NOTES aka Neovim Commands I always forget but want to remember
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!</description>
+      <content>&lt;h1 id=&#34;neovim-notes&#34;&gt;NEOVIM NOTES&lt;/h1&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;aka Neovim Commands I always forget but want to remember&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;quit&#34;&gt;QUIT&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Rather than :q or :wq or :q! use ZZ
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;key-bindings&#34;&gt;KEY BINDINGS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;:help index (show all default key bindings)
+:map (show all custom bindings)
+:map &amp;lt;leader&amp;gt; (show all leader bindings)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;navigation&#34;&gt;NAVIGATION:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;H Top
+M Middle
+L bottom
+f&amp;lt;char&amp;gt; move to the next char in the line
+t&amp;lt;char&amp;gt; move up to but not on that char
+F&amp;lt;char&amp;gt; move back to the next char in the line
+T&amp;lt;char&amp;gt; move backwards to but not on that char
+; move to the next match from &#39;t&#39; and &#39;f&#39;
+_ move to the first char in line
+gg Top of file
+G bottom of file
+&amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number
+% move to matching character () {} [] 
+{ } Move up and down by paragaph
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;scrolling&#34;&gt;SCROLLING&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Cntrl-y scroll up by one line
+Cntrl-f forward one screen
+Cntrl-b backward one screen
+Cntrl-d Move Down but keep cursor in the same spot
+Cntrl-u opposite of Cntrl-d
+zz Center on Cursor Position
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;macro&#34;&gt;MACRO&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;qa # begins recording in register &#39;a&#39;
+&amp;gt;&amp;gt; record activity &amp;lt;&amp;lt;
+q # stop recording
+@a # run macro in register &#39;a&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;search-and-replace&#34;&gt;SEARCH AND REPLACE&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;: s/search/replace/ # only on this line
+: %s/search/replace/ # globally in the file
+flags: 
+    g multiple accurances on the line
+    c confirm
+    i case insensitive
+# search backward for item under cursor
+% find the next curly/square bracket on the line
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;run-shell-commands&#34;&gt;RUN SHELL COMMANDS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;:! &amp;lt;commands&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;edit-commands&#34;&gt;EDIT COMMANDS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;I jump to beginning of line and Insert
+A jump to end of line and Insert
+gu &amp;lt;movement&amp;gt; # lowercase range
+gU &amp;lt;movement&amp;gt; # uppercase range : gUw up the word
+J join the lines
+c &amp;lt;movement&amp;gt; change deletes the range and puts you in edit mode
+xp transpose letters teh-&amp;gt; the 
+{num}&amp;gt;&amp;gt; or {num}&amp;lt;&amp;lt; shift num lines left or right
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;visual-mode--mark-lines-then-do-a-command&#34;&gt;VISUAL MODE : Mark lines then do a command&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;v enter visual mode with movement
+V enter line visual mode
+Cntrl-v Vertical Column Selection mode
+    Select all of the area using Vertical Column. Then &#39;A&#39; to append to add to the end. Or use &#39;C&#39; to change, I to insert.
+    
+Commands:
+d delete
+y yank
+~ switch case
+u lowercase
+U uppercase
+a &amp;lt;movement&amp;gt; mark : aw mark word
+A append
+c change
+
+:w &amp;lt;FILENAME&amp;gt; to write marked lines to a new file
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;increment-numbers-with-visual-mode&#34;&gt;INCREMENT NUMBERS WITH VISUAL MODE&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;use Cntrl-v for vertical selection in Visual Mode
+Select a column of numbers. Cntr-a Cntrl-a to increment by 1
+Even better: g Cntrl-a Cntrl-a and it increments the column
+Cntrl-x to decrement
+foobar[1]  bar[6]
+foobar[1]  bar[7]
+foobar[1]  bar[2]
+foobar[1]  bar[5]
+foobar[1]  bar[6]
+foobar[1]  bar[7]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;working-with-multiple-buffers&#34;&gt;WORKING WITH MULTIPLE BUFFERS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;:e &amp;lt;file&amp;gt; opens file in new buffer
+:bn next buffer
+:bp prev buffer
+:b# buffer by number 
+:bd delete buffer
+:ls list buffers
+
+&amp;lt;leader&amp;gt;fb to use Telescope to find a buffer
+
+:Ex to explore the directory of the current buffer file 
+    &amp;lt;leader&amp;gt;b
+:Sex same as above but opens in split window
+:Rex return to the previous directory explorer
+
+:r &amp;lt;filename&amp;gt; read in from other file
+:r !&amp;lt;cmd&amp;gt; read in the results of command
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;working-with-registers&#34;&gt;WORKING WITH REGISTERS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;:registers to list out the current values in the regsiters
+&amp;quot;{register_num}p to paste that register value in Normal mode
+
+To add to a register you can use one of the commands like &#39;d&#39;, &#39;c&#39;, &#39;s&#39;,
+&#39;x&#39;, &#39;dd&#39;, &#39;yy&#39; and the like but put &amp;quot;{registernum} first
+ex: &amp;quot;ayy would yank the current line and put it into register a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When in Insert you can do
+&lt;!-- raw HTML omitted --&gt;{register} to insert the contents of that register
+&lt;!-- raw HTML omitted --&gt;. (the last text that you inserted)
+&lt;!-- raw HTML omitted --&gt; is the same as &amp;ldquo;&lt;!-- raw HTML omitted --&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;completion-methods&#34;&gt;COMPLETION METHODS&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt; Clears completion&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;  completion search previous
+&lt;!-- raw HTML omitted --&gt;  completion search next&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;C-x&amp;gt;&amp;lt;C-f&amp;gt; filename completion
+&amp;lt;C-x&amp;gt;&amp;lt;C-p&amp;gt; Context aware completion. Trick is to not hit space but just
+keep up with &amp;lt;C-x&amp;gt;&amp;lt;C-p&amp;gt; and sometimes add the extra &amp;lt;C-p&amp;gt; to select and
+continue. Sick.
+
+&amp;lt;C-x&amp;gt;&amp;lt;C-l&amp;gt; repeat the line
+    Cool thing here is like &amp;lt;C-x&amp;gt;&amp;lt;C-p&amp;gt; if you continue without a space it
+    will start repeating lines after the previous match. 
+
+&amp;lt;C-x&amp;gt;&amp;lt;C-o&amp;gt; omni completion of code
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;range&#34;&gt;RANGE&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Specify line ranges with a variety of prefixes to a command
+Some Ex commands accept a line range in front of them.  This is noted as
+[range].  It consists of one or more line specifiers, separated with &#39;,&#39; or
+&#39;;&#39;.
+
+
+
+{number}	an absolute line number  *E1247*
+.		the current line			  *:.*
+$		the last line in the file		  *:$*
+%		equal to 1,$ (the entire file)		  *:%*
+&#39;t		position of mark t (lowercase)		  *:&#39;*
+&#39;T		position of mark T (uppercase); when the mark is in
+		another file it cannot be used in a range
+/{pattern}[/]	the next line where {pattern} matches	  *:/*
+?{pattern}[?]	the previous line where {pattern} matches *:?*
+\/		the next line where the previously used search
+		pattern matches
+\?		the previous line where the previously used search
+		pattern matches
+\&amp;amp;		the next line where the previously used substitute
+		pattern matches
+
+Range Examples
+
+.+3		three lines below the cursor
+/that/+1	the line below the next line containing &amp;quot;that&amp;quot;
+.,$		from current line until end of file
+0;/that		the first line containing &amp;quot;that&amp;quot;, also matches in the
+		first line.
+1;/that		the first line after line 1 containing &amp;quot;that&amp;quot;
+
+
+54s/Fool/Cool/g  Substitute command only on line 54
+.,+10s/Fool/Cool/g same but on the current line and the next 10 lines
+
+
+If you want to grab the next 5 lines type &amp;quot;5:&amp;quot; and it is replaced with
+&amp;quot;.,+4&amp;quot; the equivalent range
+
+Move the next 3 lines to the end of the file
+.,+2m $
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;visual-mode-and-range&#34;&gt;VISUAL MODE AND RANGE.&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;After making selection with visual mode enter
+:
+And then the command will use the Visual selection as its range. 
+
+:* can be used after the Visual mode has ended.
+
+
+Some commands can take a suffix count number
+example:
+    s/^/#/ 5  (will add # signs to the beginning of the next 5 lines
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;windown-commands&#34;&gt;WINDOWN COMMANDS&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;C-w&amp;gt;c to close the current window
+&amp;lt;C-w&amp;gt;&amp;lt;C-r&amp;gt; Rotate windows downwards
+&amp;lt;C-w&amp;gt; r  Rotate windows upwards
+&amp;lt;C-w&amp;gt;&amp;lt;C-x&amp;gt; Swap windows
+&amp;lt;C-w&amp;gt; K  Change two vertical windows to two horizontal
+&amp;lt;C-w&amp;gt; H  Change two vertical windows to two vertical
+
+&amp;lt;C-w&amp;gt; = Make all windows equal
+&amp;lt;C-w&amp;gt; - Decrease height
+&amp;lt;C-w&amp;gt; &amp;lt; Decrease width
+&amp;lt;C-w&amp;gt; &amp;gt; Increase width
+Or use the Mouse!!
+&lt;/code&gt;&lt;/pre&gt;
 </content>
     </item>
     

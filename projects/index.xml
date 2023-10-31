@@ -34,19 +34,19 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/cabin-proj/</guid>
-      <description>CABIN PROJECTS MASTER LIST FALL [o] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets [.</description>
+      <description>CABIN PROJECTS MASTER LIST FALL [O] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets [.</description>
       <content>&lt;h1 id=&#34;cabin-projects-master-list&#34;&gt;CABIN PROJECTS MASTER LIST&lt;/h1&gt;
 &lt;h2 id=&#34;fall&#34;&gt;FALL&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[o] Outdoor Kitchen Counter
+&lt;li&gt;[O] Outdoor Kitchen Counter
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make form for the concrete&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; purchase concrete of the correct type&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; decide on the type of hinges to use and buy jig if necessary&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy Cement to fill in the holes on the countertop edge&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mix and spread concrete filler on countertop edges&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand countertop after cement cures&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mix and spread concrete filler on countertop edges&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand countertop after cement cures&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; prime and paint the cabinets&lt;/li&gt;
 &lt;li&gt;[.] trim shelves and doors to final size
 &lt;ul&gt;
@@ -93,12 +93,12 @@ Perhaps this means getting a newer battery that is sealed.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; North Corbels&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; DC Power to Porch:
+&lt;li&gt;[.] DC Power to Porch:
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 12V line from shop to kitchen area&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 12V line to cabin side of porch for WeMos and router&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cat 6 extender for line under house up to new router position&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order 12V LED strips&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order 12V LED strips&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -262,7 +262,7 @@ What are the right pads for this?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/santa-fe-workshop/</guid>
-      <description>SANTA FE WORKSHOP SPITBALLING IDEAS go to Los Alamos and then on to the Caldera Meetings at Radius Books and Photo Eye William Clift gallery Other photo galleries Ghost Ranch and/or other ideas related to Georgia O&amp;rsquo;Keefe Canyon Road and Aurelia Gallery Access to POG Photo Archives Photo Curators at Art Museum Site Santa Fe Foto Forum Santa Fe </description>
+      <description>SANTA FE WORKSHOP SPITBALLING IDEAS go to Los Alamos and then on to the Caldera Meetings at Radius Books and Photo Eye William Clift gallery Other photo galleries Ghost Ranch and/or other ideas related to Georgia O&amp;rsquo;Keefe Canyon Road and Aurelia Gallery Access to POG Photo Archives Photo Curators at Art Museum Site Santa Fe Foto Forum Santa Fe Notes after initial call with Anja 25/oct/2023 10 to 12 students End of April or beginning of May Announce in December Not too many planned activities 4 days potential for a meet up on the first night they get to town list of hotels that we recommend or the area have a van the entire time Anja and Edward would both come out have a follow-up zoom two weeks later to look at everyone&amp;rsquo;s work </description>
       <content>&lt;h1 id=&#34;santa-fe-workshop&#34;&gt;SANTA FE WORKSHOP&lt;/h1&gt;
 &lt;h2 id=&#34;spitballing-ideas&#34;&gt;SPITBALLING IDEAS&lt;/h2&gt;
 &lt;ul&gt;
@@ -276,6 +276,78 @@ What are the right pads for this?</description>
 &lt;li&gt;Photo Curators at Art Museum&lt;/li&gt;
 &lt;li&gt;Site Santa Fe&lt;/li&gt;
 &lt;li&gt;Foto Forum Santa Fe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes-after-initial-call-with-anja-25oct2023&#34;&gt;Notes after initial call with Anja 25/oct/2023&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;10 to 12 students&lt;/li&gt;
+&lt;li&gt;End of April or beginning of May&lt;/li&gt;
+&lt;li&gt;Announce in December&lt;/li&gt;
+&lt;li&gt;Not too many planned activities&lt;/li&gt;
+&lt;li&gt;4 days&lt;/li&gt;
+&lt;li&gt;potential for a meet up on the first night they get to town&lt;/li&gt;
+&lt;li&gt;list of hotels that we recommend or the area&lt;/li&gt;
+&lt;li&gt;have a van the entire time&lt;/li&gt;
+&lt;li&gt;Anja and Edward would both come out&lt;/li&gt;
+&lt;li&gt;have a follow-up zoom two weeks later to look at everyone&amp;rsquo;s work&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaimcbride.github.io/projects/solar-upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/projects/solar-upgrade/</guid>
+      <description>SOLAR UPGRADE This is a list of changes to make to the solar power system to improve the usage going forward.
+GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on the shop improve use of other solar panels make use of metal backing for heat dissipation have better access to DC power distribution for the shop, porch, and cabin general reorganiztion of the layout of equipment in the box direct connection from battery to inverter proper sized wire for critical connections PLANNING Take photographs and make measurements of all equipment currently in the box Make new layout of items in the box 2x Charge Controllers Direct path from battery to the Inverter Remove Battery disconnecdt switch Larger 12V fuseblock?</description>
+      <content>&lt;h1 id=&#34;solar-upgrade&#34;&gt;SOLAR UPGRADE&lt;/h1&gt;
+&lt;p&gt;This is a list of changes to make to the solar power system to improve the usage going forward.&lt;/p&gt;
+&lt;h2 id=&#34;goals-for-the-upgrade&#34;&gt;GOALS FOR THE UPGRADE&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;incorporate 2nd Victron CC to power the solar panels on the shop&lt;/li&gt;
+&lt;li&gt;improve use of other solar panels&lt;/li&gt;
+&lt;li&gt;make use of metal backing for heat dissipation&lt;/li&gt;
+&lt;li&gt;have better access to DC power distribution for the shop, porch, and cabin&lt;/li&gt;
+&lt;li&gt;general reorganiztion of the layout of equipment in the box&lt;/li&gt;
+&lt;li&gt;direct connection from battery to inverter&lt;/li&gt;
+&lt;li&gt;proper sized wire for critical connections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;planning&#34;&gt;PLANNING&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Take photographs and make measurements of all equipment currently in the box&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Make new layout of items in the box
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2x Charge Controllers&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Direct path from battery to the Inverter&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Battery disconnecdt switch&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Larger 12V fuseblock? Or external fuseblocks elsewhere?&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Robust bus bar for 24V + and -&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Label Wire Gauge Sizes&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add PV Disconnects outside of box&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Size of metal cooling plate needed for essential items?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order items needed to accomplish new plan
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Wire in appropriate gauges&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Design new box
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; should it be top or side opening?&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; size (with room to alter / grow)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; limitation in the shop on the size or design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Can there be a temporary plan before the new box to get 2nd CC installed&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; find better location for the shop solar panels and raise them to 57 degrees for winter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;actions&#34;&gt;ACTIONS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make new box&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make placeholders for each item and make sure everything will fit as expected&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; move shop solar panels&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>

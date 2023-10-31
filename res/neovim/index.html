@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title> :: Ataraxia Wiki</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://kaimcbride.github.io/res/neovim/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://kaimcbride.github.io/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://kaimcbride.github.io/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="https://kaimcbride.github.io/img/theme-colors/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!" />
+<meta property="og:url" content="https://kaimcbride.github.io/res/neovim/" />
+<meta property="og:site_name" content="Ataraxia Wiki" />
+
+  
+    <meta property="og:image" content="https://kaimcbride.github.io/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://kaimcbride.github.io/">
+  <div class="logo">
+    ATARAXIA WIKI
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://kaimcbride.github.io/res/neovim/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+  
+
+
+  
+  Parent is <a href="https://kaimcbride.github.io/res/">https://kaimcbride.github.io/res/</a><br>
+  Next is <a href="https://kaimcbride.github.io/res/neorg-notes/">https://kaimcbride.github.io/res/neorg-notes/</a><br>
+  Prev is <a href="https://kaimcbride.github.io/res/solar-about-lithium/">https://kaimcbride.github.io/res/solar-about-lithium/</a><br>
+
+  <div class="post-content"><div>
+        <h1 id="neovim-notes">NEOVIM NOTES<a href="#neovim-notes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p><!-- raw HTML omitted -->aka Neovim Commands I always forget but want to remember<!-- raw HTML omitted --></p>
+<h2 id="quit">QUIT<a href="#quit" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>Rather than :q or :wq or :q! use ZZ
+</code></pre>
+<h2 id="key-bindings">KEY BINDINGS<a href="#key-bindings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>:help index (show all default key bindings)
+:map (show all custom bindings)
+:map &lt;leader&gt; (show all leader bindings)
+</code></pre>
+<h2 id="navigation">NAVIGATION:<a href="#navigation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>H Top
+M Middle
+L bottom
+f&lt;char&gt; move to the next char in the line
+t&lt;char&gt; move up to but not on that char
+F&lt;char&gt; move back to the next char in the line
+T&lt;char&gt; move backwards to but not on that char
+; move to the next match from 't' and 'f'
+_ move to the first char in line
+gg Top of file
+G bottom of file
+&lt;num&gt;gg or &lt;num&gt;G jump to that line number
+% move to matching character () {} [] 
+{ } Move up and down by paragaph
+</code></pre>
+<h2 id="scrolling">SCROLLING<a href="#scrolling" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>Cntrl-y scroll up by one line
+Cntrl-f forward one screen
+Cntrl-b backward one screen
+Cntrl-d Move Down but keep cursor in the same spot
+Cntrl-u opposite of Cntrl-d
+zz Center on Cursor Position
+</code></pre>
+<h2 id="macro">MACRO<a href="#macro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>qa # begins recording in register 'a'
+&gt;&gt; record activity &lt;&lt;
+q # stop recording
+@a # run macro in register 'a'
+</code></pre>
+<h2 id="search-and-replace">SEARCH AND REPLACE<a href="#search-and-replace" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>: s/search/replace/ # only on this line
+: %s/search/replace/ # globally in the file
+flags: 
+    g multiple accurances on the line
+    c confirm
+    i case insensitive
+# search backward for item under cursor
+% find the next curly/square bracket on the line
+</code></pre>
+<h2 id="run-shell-commands">RUN SHELL COMMANDS<a href="#run-shell-commands" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>:! &lt;commands&gt;
+</code></pre>
+<h2 id="edit-commands">EDIT COMMANDS<a href="#edit-commands" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>I jump to beginning of line and Insert
+A jump to end of line and Insert
+gu &lt;movement&gt; # lowercase range
+gU &lt;movement&gt; # uppercase range : gUw up the word
+J join the lines
+c &lt;movement&gt; change deletes the range and puts you in edit mode
+xp transpose letters teh-&gt; the 
+{num}&gt;&gt; or {num}&lt;&lt; shift num lines left or right
+</code></pre>
+<h2 id="visual-mode--mark-lines-then-do-a-command">VISUAL MODE : Mark lines then do a command<a href="#visual-mode--mark-lines-then-do-a-command" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>v enter visual mode with movement
+V enter line visual mode
+Cntrl-v Vertical Column Selection mode
+    Select all of the area using Vertical Column. Then 'A' to append to add to the end. Or use 'C' to change, I to insert.
+    
+Commands:
+d delete
+y yank
+~ switch case
+u lowercase
+U uppercase
+a &lt;movement&gt; mark : aw mark word
+A append
+c change
+
+:w &lt;FILENAME&gt; to write marked lines to a new file
+</code></pre>
+<h2 id="increment-numbers-with-visual-mode">INCREMENT NUMBERS WITH VISUAL MODE<a href="#increment-numbers-with-visual-mode" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>use Cntrl-v for vertical selection in Visual Mode
+Select a column of numbers. Cntr-a Cntrl-a to increment by 1
+Even better: g Cntrl-a Cntrl-a and it increments the column
+Cntrl-x to decrement
+foobar[1]  bar[6]
+foobar[1]  bar[7]
+foobar[1]  bar[2]
+foobar[1]  bar[5]
+foobar[1]  bar[6]
+foobar[1]  bar[7]
+</code></pre>
+<h2 id="working-with-multiple-buffers">WORKING WITH MULTIPLE BUFFERS<a href="#working-with-multiple-buffers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>:e &lt;file&gt; opens file in new buffer
+:bn next buffer
+:bp prev buffer
+:b# buffer by number 
+:bd delete buffer
+:ls list buffers
+
+&lt;leader&gt;fb to use Telescope to find a buffer
+
+:Ex to explore the directory of the current buffer file 
+    &lt;leader&gt;b
+:Sex same as above but opens in split window
+:Rex return to the previous directory explorer
+
+:r &lt;filename&gt; read in from other file
+:r !&lt;cmd&gt; read in the results of command
+</code></pre>
+<h2 id="working-with-registers">WORKING WITH REGISTERS<a href="#working-with-registers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>:registers to list out the current values in the regsiters
+&quot;{register_num}p to paste that register value in Normal mode
+
+To add to a register you can use one of the commands like 'd', 'c', 's',
+'x', 'dd', 'yy' and the like but put &quot;{registernum} first
+ex: &quot;ayy would yank the current line and put it into register a
+</code></pre>
+<p>When in Insert you can do
+<!-- raw HTML omitted -->{register} to insert the contents of that register
+<!-- raw HTML omitted -->. (the last text that you inserted)
+<!-- raw HTML omitted --> is the same as &ldquo;<!-- raw HTML omitted -->.&rdquo;</p>
+<h2 id="completion-methods">COMPLETION METHODS<a href="#completion-methods" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><!-- raw HTML omitted --> Clears completion</p>
+<p><!-- raw HTML omitted -->  completion search previous
+<!-- raw HTML omitted -->  completion search next</p>
+<pre><code>&lt;C-x&gt;&lt;C-f&gt; filename completion
+&lt;C-x&gt;&lt;C-p&gt; Context aware completion. Trick is to not hit space but just
+keep up with &lt;C-x&gt;&lt;C-p&gt; and sometimes add the extra &lt;C-p&gt; to select and
+continue. Sick.
+
+&lt;C-x&gt;&lt;C-l&gt; repeat the line
+    Cool thing here is like &lt;C-x&gt;&lt;C-p&gt; if you continue without a space it
+    will start repeating lines after the previous match. 
+
+&lt;C-x&gt;&lt;C-o&gt; omni completion of code
+</code></pre>
+<h2 id="range">RANGE<a href="#range" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>Specify line ranges with a variety of prefixes to a command
+Some Ex commands accept a line range in front of them.  This is noted as
+[range].  It consists of one or more line specifiers, separated with ',' or
+';'.
+
+
+
+{number}	an absolute line number  *E1247*
+.		the current line			  *:.*
+$		the last line in the file		  *:$*
+%		equal to 1,$ (the entire file)		  *:%*
+'t		position of mark t (lowercase)		  *:'*
+'T		position of mark T (uppercase); when the mark is in
+		another file it cannot be used in a range
+/{pattern}[/]	the next line where {pattern} matches	  *:/*
+?{pattern}[?]	the previous line where {pattern} matches *:?*
+\/		the next line where the previously used search
+		pattern matches
+\?		the previous line where the previously used search
+		pattern matches
+\&amp;		the next line where the previously used substitute
+		pattern matches
+
+Range Examples
+
+.+3		three lines below the cursor
+/that/+1	the line below the next line containing &quot;that&quot;
+.,$		from current line until end of file
+0;/that		the first line containing &quot;that&quot;, also matches in the
+		first line.
+1;/that		the first line after line 1 containing &quot;that&quot;
+
+
+54s/Fool/Cool/g  Substitute command only on line 54
+.,+10s/Fool/Cool/g same but on the current line and the next 10 lines
+
+
+If you want to grab the next 5 lines type &quot;5:&quot; and it is replaced with
+&quot;.,+4&quot; the equivalent range
+
+Move the next 3 lines to the end of the file
+.,+2m $
+</code></pre>
+<h3 id="visual-mode-and-range">VISUAL MODE AND RANGE.<a href="#visual-mode-and-range" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre><code>After making selection with visual mode enter
+:
+And then the command will use the Visual selection as its range. 
+
+:* can be used after the Visual mode has ended.
+
+
+Some commands can take a suffix count number
+example:
+    s/^/#/ 5  (will add # signs to the beginning of the next 5 lines
+</code></pre>
+<h2 id="windown-commands">WINDOWN COMMANDS<a href="#windown-commands" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>&lt;C-w&gt;c to close the current window
+&lt;C-w&gt;&lt;C-r&gt; Rotate windows downwards
+&lt;C-w&gt; r  Rotate windows upwards
+&lt;C-w&gt;&lt;C-x&gt; Swap windows
+&lt;C-w&gt; K  Change two vertical windows to two horizontal
+&lt;C-w&gt; H  Change two vertical windows to two vertical
+
+&lt;C-w&gt; = Make all windows equal
+&lt;C-w&gt; - Decrease height
+&lt;C-w&gt; &lt; Decrease width
+&lt;C-w&gt; &gt; Increase width
+Or use the Mouse!!
+</code></pre>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
