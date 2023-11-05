@@ -7,7 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!" />
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -45,7 +45,7 @@ QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all defa
 <meta property="og:type" content="article" />
 <meta property="og:title" content="">
 <meta property="og:description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!" />
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
 <meta property="og:url" content="https://kaimcbride.github.io/res/neovim/" />
 <meta property="og:site_name" content="Ataraxia Wiki" />
 
@@ -135,6 +135,18 @@ G bottom of file
 % move to matching character () {} [] 
 { } Move up and down by paragaph
 </code></pre>
+<h3 id="in-and-all-selection">in and all selection<a href="#in-and-all-selection" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre><code>The 'i' indicates 'in' the target, not including surrounding chars
+The 'a' indicates 'around' the target, including surraounding chars, whitespace, etc...
+ciw/caw - change in word
+ci&quot;/ca&quot; - change in quotes (with a the quotes are removed)
+ci[/ca[ - change in square braces
+cip - change in paragraph
+
+This same technique can be used with 'y' to yankd 'd' to delete
+
+Powerful when combined with Visual mode and motions. vkap or vjap
+</code></pre>
 <h2 id="scrolling">SCROLLING<a href="#scrolling" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <pre><code>Cntrl-y scroll up by one line
 Cntrl-f forward one screen
@@ -220,6 +232,17 @@ foobar[1]  bar[7]
 :r &lt;filename&gt; read in from other file
 :r !&lt;cmd&gt; read in the results of command
 </code></pre>
+<h3 id="horizontal-and-vertical-splits">HORIZONTAL AND VERTICAL SPLITS<a href="#horizontal-and-vertical-splits" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre><code>:sp and :vs for horizontal and vertical
+:sp [cmd] [filename] to execute or edit into the split
+&lt;C-w&gt;= Make all windows the equal size
+&lt;C-w&gt;_ Maximize in the vertical
+&lt;C-w&gt;| Maximize in the horizontal
+&lt;C-w&gt;r Rotate windows clockwise (R for anticlockwise)
+&lt;C-w&gt;x Exchange windows
+
+Use mouse to resize windows
+</code></pre>
 <h2 id="working-with-registers">WORKING WITH REGISTERS<a href="#working-with-registers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <pre><code>:registers to list out the current values in the regsiters
 &quot;{register_num}p to paste that register value in Normal mode
@@ -270,10 +293,11 @@ $		the last line in the file		  *:$*
 		pattern matches
 \&amp;		the next line where the previously used substitute
 		pattern matches
-
-Range Examples
-
-.+3		three lines below the cursor
+yap/dap      grab contiguous paragraph including white space
+yip/dip      grab contiguous paragraph excluding white space
+</code></pre>
+<h3 id="range-examples">Range Examples<a href="#range-examples" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre><code>.+3		three lines below the cursor
 /that/+1	the line below the next line containing &quot;that&quot;
 .,$		from current line until end of file
 0;/that		the first line containing &quot;that&quot;, also matches in the
@@ -298,6 +322,7 @@ And then the command will use the Visual selection as its range.
 
 :* can be used after the Visual mode has ended.
 
+Shift-V kyap -- grab paragraph above (k) including white space
 
 Some commands can take a suffix count number
 example:
@@ -316,6 +341,16 @@ example:
 &lt;C-w&gt; &lt; Decrease width
 &lt;C-w&gt; &gt; Increase width
 Or use the Mouse!!
+</code></pre>
+<p>this is &ldquo;grate&rdquo;
+No it is &ldquo;greater&rdquo;</p>
+<p>order[dog] = garbage</p>
+<h2 id="terminal">TERMINAL<a href="#terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>:terminal to launch
+:split term://fish  --:to launch a fish terminal
+&lt;leader&gt;ter is bound to vsplit
+
+ &lt;C-\&gt;&lt;C-N&gt; to return to normal mode. Note: Capital 'N'
 </code></pre>
 
       </div></div>

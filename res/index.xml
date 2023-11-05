@@ -258,7 +258,7 @@ foo = 34.5&lt;/p&gt;
       
       <guid>https://kaimcbride.github.io/res/neovim/</guid>
       <description>NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph SCROLLING Cntrl-y scroll up by one line Cntrl-f forward one screen Cntrl-b backward one screen Cntrl-d Move Down but keep cursor in the same spot Cntrl-u opposite of Cntrl-d zz Center on Cursor Position MACRO qa # begins recording in register &#39;a&#39; &amp;gt;&amp;gt; record activity &amp;lt;&amp;lt; q # stop recording @a # run macro in register &#39;a&#39; SEARCH AND REPLACE : s/search/replace/ # only on this line : %s/search/replace/ # globally in the file flags: g multiple accurances on the line c confirm i case insensitive # search backward for item under cursor % find the next curly/square bracket on the line RUN SHELL COMMANDS :!</description>
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc.</description>
       <content>&lt;h1 id=&#34;neovim-notes&#34;&gt;NEOVIM NOTES&lt;/h1&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;aka Neovim Commands I always forget but want to remember&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;quit&#34;&gt;QUIT&lt;/h2&gt;
@@ -284,6 +284,18 @@ G bottom of file
 &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number
 % move to matching character () {} [] 
 { } Move up and down by paragaph
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;in-and-all-selection&#34;&gt;in and all selection&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars
+The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc...
+ciw/caw - change in word
+ci&amp;quot;/ca&amp;quot; - change in quotes (with a the quotes are removed)
+ci[/ca[ - change in square braces
+cip - change in paragraph
+
+This same technique can be used with &#39;y&#39; to yankd &#39;d&#39; to delete
+
+Powerful when combined with Visual mode and motions. vkap or vjap
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;scrolling&#34;&gt;SCROLLING&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;Cntrl-y scroll up by one line
@@ -370,6 +382,17 @@ foobar[1]  bar[7]
 :r &amp;lt;filename&amp;gt; read in from other file
 :r !&amp;lt;cmd&amp;gt; read in the results of command
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;horizontal-and-vertical-splits&#34;&gt;HORIZONTAL AND VERTICAL SPLITS&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;:sp and :vs for horizontal and vertical
+:sp [cmd] [filename] to execute or edit into the split
+&amp;lt;C-w&amp;gt;= Make all windows the equal size
+&amp;lt;C-w&amp;gt;_ Maximize in the vertical
+&amp;lt;C-w&amp;gt;| Maximize in the horizontal
+&amp;lt;C-w&amp;gt;r Rotate windows clockwise (R for anticlockwise)
+&amp;lt;C-w&amp;gt;x Exchange windows
+
+Use mouse to resize windows
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;working-with-registers&#34;&gt;WORKING WITH REGISTERS&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;:registers to list out the current values in the regsiters
 &amp;quot;{register_num}p to paste that register value in Normal mode
@@ -420,10 +443,11 @@ $		the last line in the file		  *:$*
 		pattern matches
 \&amp;amp;		the next line where the previously used substitute
 		pattern matches
-
-Range Examples
-
-.+3		three lines below the cursor
+yap/dap      grab contiguous paragraph including white space
+yip/dip      grab contiguous paragraph excluding white space
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;range-examples&#34;&gt;Range Examples&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;.+3		three lines below the cursor
 /that/+1	the line below the next line containing &amp;quot;that&amp;quot;
 .,$		from current line until end of file
 0;/that		the first line containing &amp;quot;that&amp;quot;, also matches in the
@@ -448,6 +472,7 @@ And then the command will use the Visual selection as its range.
 
 :* can be used after the Visual mode has ended.
 
+Shift-V kyap -- grab paragraph above (k) including white space
 
 Some commands can take a suffix count number
 example:
@@ -466,6 +491,16 @@ example:
 &amp;lt;C-w&amp;gt; &amp;lt; Decrease width
 &amp;lt;C-w&amp;gt; &amp;gt; Increase width
 Or use the Mouse!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;this is &amp;ldquo;grate&amp;rdquo;
+No it is &amp;ldquo;greater&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;order[dog] = garbage&lt;/p&gt;
+&lt;h2 id=&#34;terminal&#34;&gt;TERMINAL&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;:terminal to launch
+:split term://fish  --:to launch a fish terminal
+&amp;lt;leader&amp;gt;ter is bound to vsplit
+
+ &amp;lt;C-\&amp;gt;&amp;lt;C-N&amp;gt; to return to normal mode. Note: Capital &#39;N&#39;
 &lt;/code&gt;&lt;/pre&gt;
 </content>
     </item>
