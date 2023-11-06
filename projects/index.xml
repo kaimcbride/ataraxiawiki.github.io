@@ -97,7 +97,7 @@ for a while. Incorporate changes suggested during a previous meeting and show yo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/cabin-proj/</guid>
-      <description>CABIN PROJECTS MASTER LIST FALL [O] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets [.</description>
+      <description>CABIN PROJECTS MASTER LIST FALL [O] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets trim shelves and doors to final size What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?</description>
       <content>&lt;h1 id=&#34;cabin-projects-master-list&#34;&gt;CABIN PROJECTS MASTER LIST&lt;/h1&gt;
 &lt;h2 id=&#34;fall&#34;&gt;FALL&lt;/h2&gt;
 &lt;ul&gt;
@@ -110,19 +110,21 @@ for a while. Incorporate changes suggested during a previous meeting and show yo
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy Cement to fill in the holes on the countertop edge&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mix and spread concrete filler on countertop edges&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand countertop after cement cures&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; prime and paint the cabinets&lt;/li&gt;
-&lt;li&gt;[.] trim shelves and doors to final size
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; prime and paint the cabinets&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim shelves and doors to final size
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do a test with small pieces of plywood&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do a test with small pieces of plywood&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order forstner bit 35mm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; hang doors
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; hang doors
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get auto-push-out magnetic latches&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get auto-push-out magnetic latches&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make wooden handles for the doors&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim and poly wood to go next to marble&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Paint the porch
@@ -130,9 +132,10 @@ for a while. Incorporate changes suggested during a previous meeting and show yo
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Quelle colour?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Rebuild and test oven
+&lt;li&gt;[.] Rebuild and test oven
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; extend line to the tank with flare and union&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make trim for oven out of metal or wood (hmmm)&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; test, test, test&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -250,6 +253,19 @@ TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test
     
     <item>
       <title></title>
+      <link>https://kaimcbride.github.io/projects/laptop-stands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/projects/laptop-stands/</guid>
+      <description>MAKE LAPTOP STAND FOR CORN AND I Here is the designs made by Patrick Sullivan Zen of Laptop Stands</description>
+      <content>&lt;h1 id=&#34;make-laptop-stand-for-corn-and-i&#34;&gt;MAKE LAPTOP STAND FOR CORN AND I&lt;/h1&gt;
+&lt;p&gt;Here is the designs made by Patrick Sullivan
+&lt;a href=&#34;https://www.youtube.com/watch?v=ggA0hcjBkLc&#34;&gt;Zen of Laptop Stands&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kaimcbride.github.io/projects/lower-radiator-hose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -313,10 +329,16 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
       
       <guid>https://kaimcbride.github.io/projects/rear-brakes/</guid>
       <description>Rear Brakes What is the test to see if the drum needs replacing?
-What are the right pads for this?</description>
+What are the right pads for this?
+ACTIONS Take off the rear wheels and drums to look at the pads and the drums Order parts </description>
       <content>&lt;h1 id=&#34;rear-brakes&#34;&gt;Rear Brakes&lt;/h1&gt;
 &lt;p&gt;What is the test to see if the drum needs replacing?&lt;/p&gt;
 &lt;p&gt;What are the right pads for this?&lt;/p&gt;
+&lt;h2 id=&#34;actions&#34;&gt;ACTIONS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Take off the rear wheels and drums to look at the pads and the drums&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order parts&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
