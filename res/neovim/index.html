@@ -7,7 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph IN AND ALL SELECTION The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -45,7 +45,7 @@ QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all defa
 <meta property="og:type" content="article" />
 <meta property="og:title" content="">
 <meta property="og:description" content="NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph IN AND ALL SELECTION The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc." />
 <meta property="og:url" content="https://kaimcbride.github.io/res/neovim/" />
 <meta property="og:site_name" content="Ataraxia Wiki" />
 
@@ -135,13 +135,16 @@ G bottom of file
 % move to matching character () {} [] 
 { } Move up and down by paragaph
 </code></pre>
-<h3 id="in-and-all-selection">in and all selection<a href="#in-and-all-selection" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="in-and-all-selection">IN AND ALL SELECTION<a href="#in-and-all-selection" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <pre><code>The 'i' indicates 'in' the target, not including surrounding chars
 The 'a' indicates 'around' the target, including surraounding chars, whitespace, etc...
 ciw/caw - change in word
 ci&quot;/ca&quot; - change in quotes (with a the quotes are removed)
 ci[/ca[ - change in square braces
 cip - change in paragraph
+'b' is a synonym for parens, so vib visually select in parens
+'B' is a synonym for braces, so vib visually select in braces
+'t' for tags &lt;b&gt; This is text inside a tag &lt;/b&gt;
 
 This same technique can be used with 'y' to yankd 'd' to delete
 
@@ -164,13 +167,14 @@ q # stop recording
 <h2 id="search-and-replace">SEARCH AND REPLACE<a href="#search-and-replace" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <pre><code>: s/search/replace/ # only on this line
 : %s/search/replace/ # globally in the file
-flags: 
-    g multiple accurances on the line
-    c confirm
-    i case insensitive
-# search backward for item under cursor
-% find the next curly/square bracket on the line
 </code></pre>
+<p>flags:
+g multiple occurances on the line
+c confirm
+i case insensitive
+* and # search forward/backward for item under cursor
+% find the next curly/square bracket on the line
+g&amp; run previous search and replace in the entire document</p>
 <h2 id="run-shell-commands">RUN SHELL COMMANDS<a href="#run-shell-commands" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <pre><code>:! &lt;commands&gt;
 </code></pre>
@@ -178,7 +182,11 @@ flags:
 <pre><code>I jump to beginning of line and Insert
 A jump to end of line and Insert
 gu &lt;movement&gt; # lowercase range
-gU &lt;movement&gt; # uppercase range : gUw up the word
+GU &lt;movement&gt; # Uppercase range : gUw up the word
+gq &lt;movement&gt; # format range. good for reflowing long lines
+gqq or gqgq # format current line
+g&amp; run previous search and replace in the entire document
+~ upcase letter
 J join the lines
 c &lt;movement&gt; change deletes the range and puts you in edit mode
 xp transpose letters teh-&gt; the 
@@ -351,6 +359,13 @@ No it is &ldquo;greater&rdquo;</p>
 &lt;leader&gt;ter is bound to vsplit
 
  &lt;C-\&gt;&lt;C-N&gt; to return to normal mode. Note: Capital 'N'
+</code></pre>
+<h2 id="misc">MISC<a href="#misc" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<pre><code>Spelling:
+    ]s to jump to next word 
+    z= to show alternatives
+    zg to add word to the dictionary 'z good'
+    :spellr to update that spelling in the whole document
 </code></pre>
 
       </div></div>

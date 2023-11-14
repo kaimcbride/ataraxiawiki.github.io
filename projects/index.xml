@@ -136,21 +136,19 @@ See your black-and-white photographs with fresh eyes as we look at it together!&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make wooden handles for the doors&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Install wooden handles&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Install wooden handles&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim and poly wood to go next to marble&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Make 4 drawers for the last cabinet&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Make 4 drawers for the last cabinet
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; also need two more drawer handles&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; how are these going to slide in and out?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Paint the porch
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Quelle colour?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Rebuild and test oven
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; extend line to the tank with flare and union&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make trim for oven out of metal or wood (hmmm)&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; test, test, test&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Front Railing&lt;/li&gt;
@@ -163,6 +161,7 @@ See your black-and-white photographs with fresh eyes as we look at it together!&
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;hot-water-system&#34;&gt;Hot Water Heater&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outdoor Shower
 &lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; test to make sure the proposed site is going to work!&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; borrow Kali&amp;rsquo;s torch and cut the pipe from the concrete&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; move pipe down the hill&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make frame for bricks&lt;/li&gt;
@@ -259,7 +258,7 @@ TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; come up with a plan on how often to turn it on and run it&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order more 8Ga (i think) wire&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order more 8Ga (i think) wire&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; create document describing the points in the plumbing system like the solar system is described&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -397,6 +396,28 @@ ACTIONS Take off the rear wheels and drums to look at the pads and the drums Ord
 &lt;h2 id=&#34;weather&#34;&gt;Weather&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.timeanddate.com/weather/usa/santa-fe/climate&#34;&gt;average weather in santa fe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I am now thinking that October would actually be a better month.&lt;/p&gt;
+&lt;p&gt;October 5th to 13th is the BAlloon Festival&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Need a van or tell folks to rent a car?&lt;/li&gt;
+&lt;li&gt;40 min drive to Los Alamos&lt;/li&gt;
+&lt;li&gt;90 min drive to Taos&lt;/li&gt;
+&lt;li&gt;100 min drive to the Valles Caldera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How much overhead to bake in vs service we provide
+8 people takes $125 to make $1000&lt;/p&gt;
+&lt;h2 id=&#34;other-workshops&#34;&gt;OTHER WORKSHOPS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;National Geographic winter expedition. All inclusive. $7200 &lt;a href=&#34;https://www.nationalgeographic.com/expeditions/destinations/north-america/land/yellowstone-winter-photo-tour/&#34;&gt;https://www.nationalgeographic.com/expeditions/destinations/north-america/land/yellowstone-winter-photo-tour/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ultimate Travel Photography Portugal. All Inclusive. $4,340&lt;/li&gt;
+&lt;li&gt;Jim Patterson. Transportation and lodging NOT included. $1895. &lt;a href=&#34;https://jimpattersonphotography.com/shop/photography-workshops/california-coast-photography-workshop/&#34;&gt;https://jimpattersonphotography.com/shop/photography-workshops/california-coast-photography-workshop/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NEW MEXICO: &lt;a href=&#34;https://www.eloquentlight.com&#34;&gt;https://www.eloquentlight.com&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Falling for NM: &lt;a href=&#34;https://www.eloquentlight.com/details-falling-for-new-mexico-2020&#34;&gt;https://www.eloquentlight.com/details-falling-for-new-mexico-2020&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;White Sands: &lt;a href=&#34;https://www.eloquentlight.com/great-white-sands-photography-workshop-autumn-2022&#34;&gt;https://www.eloquentlight.com/great-white-sands-photography-workshop-autumn-2022&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;List of workshops: &lt;a href=&#34;https://photography-workshops.directory/photography-workshop-region/us-south-west/&#34;&gt;https://photography-workshops.directory/photography-workshop-region/us-south-west/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
@@ -407,7 +428,7 @@ ACTIONS Take off the rear wheels and drums to look at the pads and the drums Ord
       
       <guid>https://kaimcbride.github.io/projects/solar-upgrade/</guid>
       <description>SOLAR UPGRADE This is a list of changes to make to the solar power system to improve the usage going forward.
-GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on the shop improve use of other solar panels make use of metal backing for heat dissipation have better access to DC power distribution for the shop, porch, and cabin general reorganiztion of the layout of equipment in the box direct connection from battery to inverter proper sized wire for critical connections PLANNING Take photographs and make measurements of all equipment currently in the box Make new layout of items in the box 2x Charge Controllers Direct path from battery to the Inverter Remove Battery disconnecdt switch Larger 12V fuseblock?</description>
+GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on the shop improve use of other solar panels make use of metal backing for heat dissipation have better access to DC power distribution for the shop, porch, and cabin general reorganization of the layout of equipment in the box direct connection from battery to inverter proper sized wire for critical connections PLANNING Take photographs and make measurements of all equipment currently in the box Make new layout of items in the box 2x Charge Controllers Direct path from battery to the Inverter Remove Battery disconnect switch Larger 12V fuseblock?</description>
       <content>&lt;h1 id=&#34;solar-upgrade&#34;&gt;SOLAR UPGRADE&lt;/h1&gt;
 &lt;p&gt;This is a list of changes to make to the solar power system to improve the usage going forward.&lt;/p&gt;
 &lt;h2 id=&#34;goals-for-the-upgrade&#34;&gt;GOALS FOR THE UPGRADE&lt;/h2&gt;
@@ -416,7 +437,7 @@ GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on th
 &lt;li&gt;improve use of other solar panels&lt;/li&gt;
 &lt;li&gt;make use of metal backing for heat dissipation&lt;/li&gt;
 &lt;li&gt;have better access to DC power distribution for the shop, porch, and cabin&lt;/li&gt;
-&lt;li&gt;general reorganiztion of the layout of equipment in the box&lt;/li&gt;
+&lt;li&gt;general reorganization of the layout of equipment in the box&lt;/li&gt;
 &lt;li&gt;direct connection from battery to inverter&lt;/li&gt;
 &lt;li&gt;proper sized wire for critical connections&lt;/li&gt;
 &lt;/ul&gt;
@@ -427,7 +448,7 @@ GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on th
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2x Charge Controllers&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Direct path from battery to the Inverter&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Battery disconnecdt switch&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Battery disconnect switch&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Larger 12V fuseblock? Or external fuseblocks elsewhere?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Robust bus bar for 24V + and -&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Label Wire Gauge Sizes&lt;/li&gt;

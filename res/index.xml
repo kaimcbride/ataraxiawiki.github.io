@@ -28,11 +28,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/res/cabin-plumbing/</guid>
-      <description>ATARAXIA PLUMBING NOTES GENERAL NOTES 3/4 WIRSBO PEX-A :w 9/16x24 IKEA faucet connector is the same as 3/8 compression EQUIPMENT 12V Pump: Pressure Tank Filters Hot Water Heater: Expansion Tank </description>
+      <description>ATARAXIA PLUMBING NOTES GENERAL NOTES 3/4 WIRSBO PEX-A 9/16x24 IKEA faucet connector is the same as 3/8 compression EQUIPMENT 12V Pump: Pressure Tank Filters Hot Water Heater: Heating Element replaceable unit is ___ Expansion Tank </description>
       <content>&lt;h1 id=&#34;ataraxia-plumbing-notes&#34;&gt;ATARAXIA PLUMBING NOTES&lt;/h1&gt;
 &lt;h2 id=&#34;general-notes&#34;&gt;GENERAL NOTES&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;3/4 WIRSBO PEX-A :w&lt;/li&gt;
+&lt;li&gt;3/4 WIRSBO PEX-A&lt;/li&gt;
 &lt;li&gt;9/16x24 IKEA faucet connector is the same as 3/8 compression&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;equipment&#34;&gt;EQUIPMENT&lt;/h2&gt;
@@ -40,8 +40,11 @@
 &lt;li&gt;12V Pump:&lt;/li&gt;
 &lt;li&gt;Pressure Tank&lt;/li&gt;
 &lt;li&gt;Filters&lt;/li&gt;
-&lt;li&gt;
-&lt;h2 id=&#34;hot-water-heater&#34;&gt;Hot Water Heater:&lt;/h2&gt;
+&lt;li&gt;Hot Water Heater:
+&lt;ul&gt;
+&lt;li&gt;Heating Element&lt;/li&gt;
+&lt;li&gt;replaceable unit is ___&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Expansion Tank&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
@@ -258,7 +261,7 @@ foo = 34.5&lt;/p&gt;
       
       <guid>https://kaimcbride.github.io/res/neovim/</guid>
       <description>NEOVIM NOTES aka Neovim Commands I always forget but want to remember
-QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph in and all selection The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc.</description>
+QUIT Rather than :q or :wq or :q! use ZZ KEY BINDINGS :help index (show all default key bindings) :map (show all custom bindings) :map &amp;lt;leader&amp;gt; (show all leader bindings) NAVIGATION: H Top M Middle L bottom f&amp;lt;char&amp;gt; move to the next char in the line t&amp;lt;char&amp;gt; move up to but not on that char F&amp;lt;char&amp;gt; move back to the next char in the line T&amp;lt;char&amp;gt; move backwards to but not on that char ; move to the next match from &#39;t&#39; and &#39;f&#39; _ move to the first char in line gg Top of file G bottom of file &amp;lt;num&amp;gt;gg or &amp;lt;num&amp;gt;G jump to that line number % move to matching character () {} [] { } Move up and down by paragaph IN AND ALL SELECTION The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc.</description>
       <content>&lt;h1 id=&#34;neovim-notes&#34;&gt;NEOVIM NOTES&lt;/h1&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;aka Neovim Commands I always forget but want to remember&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;quit&#34;&gt;QUIT&lt;/h2&gt;
@@ -285,13 +288,16 @@ G bottom of file
 % move to matching character () {} [] 
 { } Move up and down by paragaph
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;in-and-all-selection&#34;&gt;in and all selection&lt;/h3&gt;
+&lt;h3 id=&#34;in-and-all-selection&#34;&gt;IN AND ALL SELECTION&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;The &#39;i&#39; indicates &#39;in&#39; the target, not including surrounding chars
 The &#39;a&#39; indicates &#39;around&#39; the target, including surraounding chars, whitespace, etc...
 ciw/caw - change in word
 ci&amp;quot;/ca&amp;quot; - change in quotes (with a the quotes are removed)
 ci[/ca[ - change in square braces
 cip - change in paragraph
+&#39;b&#39; is a synonym for parens, so vib visually select in parens
+&#39;B&#39; is a synonym for braces, so vib visually select in braces
+&#39;t&#39; for tags &amp;lt;b&amp;gt; This is text inside a tag &amp;lt;/b&amp;gt;
 
 This same technique can be used with &#39;y&#39; to yankd &#39;d&#39; to delete
 
@@ -314,13 +320,14 @@ q # stop recording
 &lt;h2 id=&#34;search-and-replace&#34;&gt;SEARCH AND REPLACE&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;: s/search/replace/ # only on this line
 : %s/search/replace/ # globally in the file
-flags: 
-    g multiple accurances on the line
-    c confirm
-    i case insensitive
-# search backward for item under cursor
-% find the next curly/square bracket on the line
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;flags:
+g multiple occurances on the line
+c confirm
+i case insensitive
+* and # search forward/backward for item under cursor
+% find the next curly/square bracket on the line
+g&amp;amp; run previous search and replace in the entire document&lt;/p&gt;
 &lt;h2 id=&#34;run-shell-commands&#34;&gt;RUN SHELL COMMANDS&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;:! &amp;lt;commands&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -328,7 +335,11 @@ flags:
 &lt;pre&gt;&lt;code&gt;I jump to beginning of line and Insert
 A jump to end of line and Insert
 gu &amp;lt;movement&amp;gt; # lowercase range
-gU &amp;lt;movement&amp;gt; # uppercase range : gUw up the word
+GU &amp;lt;movement&amp;gt; # Uppercase range : gUw up the word
+gq &amp;lt;movement&amp;gt; # format range. good for reflowing long lines
+gqq or gqgq # format current line
+g&amp;amp; run previous search and replace in the entire document
+~ upcase letter
 J join the lines
 c &amp;lt;movement&amp;gt; change deletes the range and puts you in edit mode
 xp transpose letters teh-&amp;gt; the 
@@ -501,6 +512,13 @@ No it is &amp;ldquo;greater&amp;rdquo;&lt;/p&gt;
 &amp;lt;leader&amp;gt;ter is bound to vsplit
 
  &amp;lt;C-\&amp;gt;&amp;lt;C-N&amp;gt; to return to normal mode. Note: Capital &#39;N&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;misc&#34;&gt;MISC&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Spelling:
+    ]s to jump to next word 
+    z= to show alternatives
+    zg to add word to the dictionary &#39;z good&#39;
+    :spellr to update that spelling in the whole document
 &lt;/code&gt;&lt;/pre&gt;
 </content>
     </item>
