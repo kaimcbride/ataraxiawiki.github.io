@@ -213,8 +213,8 @@ values: none; default-on; heartbeat&lt;/p&gt;
       <guid>https://kaimcbride.github.io/res/lua/</guid>
       <description>NOTES ON LEARNING LUA USEFUL VIDEOS &amp;amp; DOCS Offical Lua Manual v5.4 Lua Guide - NVIM Docs Lua Tutorial with Derek Banas. 57min
 BASICS VARIABLES foo = &amp;ldquo;a string&amp;rdquo; foo = 34.5
-access as &amp;lsquo;foo&amp;rsquo;, not $foo
-STRINGS NEOVIM PLUGINS How to Write Neovim Plugins in Lua </description>
+Access as &amp;lsquo;foo&amp;rsquo;, not $foo
+STRINGS NEOVIM PLUGINS How to Write Neovim Plugins in Lua Write NVIM Plugin using Treesitter and Lua </description>
       <content>&lt;h1 id=&#34;notes-on-learning-lua&#34;&gt;NOTES ON LEARNING LUA&lt;/h1&gt;
 &lt;h2 id=&#34;useful-videos--docs&#34;&gt;USEFUL VIDEOS &amp;amp; DOCS&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.lua.org/manual/5.4/&#34;&gt;Offical Lua Manual v5.4&lt;/a&gt;
@@ -224,11 +224,12 @@ STRINGS NEOVIM PLUGINS How to Write Neovim Plugins in Lua </description>
 &lt;h3 id=&#34;variables&#34;&gt;VARIABLES&lt;/h3&gt;
 &lt;p&gt;foo = &amp;ldquo;a string&amp;rdquo;
 foo = 34.5&lt;/p&gt;
-&lt;p&gt;access as &amp;lsquo;foo&amp;rsquo;, not $foo&lt;/p&gt;
+&lt;p&gt;Access as &amp;lsquo;foo&amp;rsquo;, not $foo&lt;/p&gt;
 &lt;h3 id=&#34;strings&#34;&gt;STRINGS&lt;/h3&gt;
 &lt;h2 id=&#34;neovim-plugins&#34;&gt;NEOVIM PLUGINS&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dev.to/2nit/how-to-write-neovim-plugins-in-lua-5cca&#34;&gt;How to Write Neovim Plugins in Lua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=dPQfsASHNkg&#34;&gt;Write NVIM Plugin using Treesitter and Lua&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -517,9 +518,104 @@ No it is &amp;ldquo;greater&amp;rdquo;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Spelling:
     ]s to jump to next word 
     z= to show alternatives
+    1z= to take in the first spelling 
     zg to add word to the dictionary &#39;z good&#39;
     :spellr to update that spelling in the whole document
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaimcbride.github.io/res/pamela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/res/pamela/</guid>
+      <description>Work for Pamela Yus Exhaust Fan for Toilet Sun Mar Excel NE Install 24V fan into 4&amp;quot; PVC exhaust pipe with rheostat </description>
+      <content>&lt;h1 id=&#34;work-for-pamela-yus&#34;&gt;Work for Pamela Yus&lt;/h1&gt;
+&lt;h2 id=&#34;exhaust-fan-for-toilet&#34;&gt;Exhaust Fan for Toilet&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://usa.sun-mar.com/excel-ne-composting-toilets/&#34;&gt;Sun Mar Excel NE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install 24V fan into 4&amp;quot; PVC exhaust pipe with rheostat&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaimcbride.github.io/res/readings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/res/readings/</guid>
+      <description>READINGS ON PHOTOGRAPHY Compiled for G. Shomo November 2023
+ILLUSTRATED The Photographer&amp;rsquo;s Eye Anything by John Szarkowski is worth reading Looking at Photographs Another great MoMA book The Nature of Photographs: a Primer Stephen Shore Seeing Things Joel Meyerowitz aimed at kids, but well done and fun FEWER PHOTOS, MORE WORDS On Photography Susan Sontag, natch. Not a huge fan of this, but it is seminal Regarding the Pain of Others later S.</description>
+      <content>&lt;h1 id=&#34;readings-on-photography&#34;&gt;READINGS ON PHOTOGRAPHY&lt;/h1&gt;
+&lt;p&gt;Compiled for G. Shomo November 2023&lt;/p&gt;
+&lt;h2 id=&#34;illustrated&#34;&gt;ILLUSTRATED&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Photographer&amp;rsquo;s Eye
+&lt;ul&gt;
+&lt;li&gt;Anything by John Szarkowski is worth reading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Looking at Photographs
+&lt;ul&gt;
+&lt;li&gt;Another great MoMA book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Nature of Photographs: a Primer
+&lt;ul&gt;
+&lt;li&gt;Stephen Shore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Seeing Things
+&lt;ul&gt;
+&lt;li&gt;Joel Meyerowitz&lt;/li&gt;
+&lt;li&gt;aimed at kids, but well done and fun&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fewer-photos-more-words&#34;&gt;FEWER PHOTOS, MORE WORDS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On Photography
+&lt;ul&gt;
+&lt;li&gt;Susan Sontag, natch. Not a huge fan of this, but it is seminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding the Pain of Others
+&lt;ul&gt;
+&lt;li&gt;later S.S. response to O.P. I remember liking this more, maybe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Why People Photograph
+&lt;ul&gt;
+&lt;li&gt;R. Adams (and other books)&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m a big fan of some of these essays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The Complete Essays 1973-1991
+&lt;ul&gt;
+&lt;li&gt;Luigi Ghirri&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dense-photo-nerds-only&#34;&gt;DENSE PHOTO NERDS ONLY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Towards a Philosophy of Photography
+&lt;ul&gt;
+&lt;li&gt;Vilem Flusser&lt;/li&gt;
+&lt;li&gt;Like Sontag and Barthes, more about talking about their philosophy through the lens of photography&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Camera Lucida
+&lt;ul&gt;
+&lt;li&gt;Roland Barthes&lt;/li&gt;
+&lt;li&gt;This one is given too much weight in my opinion&lt;/li&gt;
+&lt;li&gt;people get carried away with the &amp;lsquo;punctum&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
@@ -629,6 +725,7 @@ Built-in 200A BMS, 4000+ Deep Cycles, Max 2560W Power Output&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Charge Controller:&lt;/em&gt; Trace Engineering 60Amp&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Batteries US L16HC 6v Batteries&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usbattery.com/us-l16hc-xc2/&#34;&gt;US L16HC Battery&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Grouping: 2x Batteries in Series to make 12V at 420Ah&lt;/li&gt;
 &lt;li&gt;2x Groups in Parallel: 12V at 840Ah&lt;/li&gt;
 &lt;li&gt;Capacity given 50% Discharge Rate: 2500W (or 21Amp) usage for 20 hours&lt;/li&gt;
@@ -638,6 +735,13 @@ Built-in 200A BMS, 4000+ Deep Cycles, Max 2560W Power Output&lt;/p&gt;
 &lt;li&gt;Samlex 3000 Watt Inverter/Charger (I installed)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Cruising Equipment e-meter + battery shunt&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hours-spent-nov-2023-for-emergency-outtage&#34;&gt;Hours Spent Nov 2023 for emergency outtage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Saturday: 9:30 - 2:30pm: 5hr + 0.5 afterwards: 5.5hrs total&lt;/li&gt;
+&lt;li&gt;Sunday: 9:30 - 12:30: Stop and Start going over to charge. 2hrs total&lt;/li&gt;
+&lt;li&gt;Thursday: 1hr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;8.5hrs total: Paid $630 11/16/2023&lt;/p&gt;
 </content>
     </item>
     

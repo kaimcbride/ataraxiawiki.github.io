@@ -109,35 +109,12 @@ See your black-and-white photographs with fresh eyes as we look at it together!&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/projects/cabin-proj/</guid>
-      <description>CABIN PROJECTS MASTER LIST FALL [O] Outdoor Kitchen Counter Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier make form for the concrete purchase concrete of the correct type decide on the type of hinges to use and buy jig if necessary Buy Cement to fill in the holes on the countertop edge Mix and spread concrete filler on countertop edges Sand countertop after cement cures prime and paint the cabinets trim shelves and doors to final size What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?</description>
+      <description>CABIN PROJECTS MASTER LIST FALL Outdoor Kitchen Counter Make 4 drawers for the last cabinet also need two more drawer handles how are these going to slide in and out? Paint the porch Quelle colour? Front Railing Driveway Upgrade mark areas where kali should dig ditches / level out Purchase other propane stove for the shop? Hot Water Heater Outdoor Shower test to make sure the proposed site is going to work!</description>
       <content>&lt;h1 id=&#34;cabin-projects-master-list&#34;&gt;CABIN PROJECTS MASTER LIST&lt;/h1&gt;
 &lt;h2 id=&#34;fall&#34;&gt;FALL&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[O] Outdoor Kitchen Counter
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outdoor Kitchen Counter
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Purchase 5 sheets of 3/4 Ply, 1 sheet of pressure treated, 1 sheet of something skinnier&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make form for the concrete&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; purchase concrete of the correct type&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; decide on the type of hinges to use and buy jig if necessary&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy Cement to fill in the holes on the countertop edge&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mix and spread concrete filler on countertop edges&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand countertop after cement cures&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; prime and paint the cabinets&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim shelves and doors to final size
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What should the gap be between cabinet doors so they don&amp;rsquo;t interfere with each other?&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do a test with small pieces of plywood&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order forstner bit 35mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; hang doors
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get auto-push-out magnetic latches&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make wooden handles for the doors&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Install wooden handles&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; trim and poly wood to go next to marble&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Make 4 drawers for the last cabinet
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; also need two more drawer handles&lt;/li&gt;
@@ -452,13 +429,13 @@ GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on th
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Larger 12V fuseblock? Or external fuseblocks elsewhere?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Robust bus bar for 24V + and -&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Label Wire Gauge Sizes&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add PV Disconnects outside of box&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add PV Disconnects&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Size of metal cooling plate needed for essential items?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order items needed to accomplish new plan
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order items needed to accomplish new plan
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Wire in appropriate gauges&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Wire in appropriate gauges&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Design new box
