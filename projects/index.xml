@@ -220,23 +220,24 @@ TODO find permanent home for Khadas make sure that backups are being automated c
       
       <guid>https://kaimcbride.github.io/projects/hot-water-system/</guid>
       <description>HOT WATER SYSTEM hint: Use C-Space to create / toggle the TODO items
-TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test system with relay in shop to ensure it works as expected Connect Plumbing under shop bench to tank Run 24V connection via relay to control hot water tank experiment with running both elements or just one come up with a plan on how often to turn it on and run it order more 8Ga (i think) wire create document describing the points in the plumbing system like the solar system is described </description>
+TODO buy 300 watt heating element (or 600 and use half) 24 V buy water tank test system with relay in shop to ensure it works as expected Connect Plumbing under shop bench to tank Run 24V connection via relay to control hot water tank experiment with running both elements or just one come up with a plan on how often to turn it on and run it order more 8Ga (i think) wire create document describing the points in the plumbing system like the solar system is described The Stinger relay needs ~1A at 10 to 12V to switch on.</description>
       <content>&lt;h1 id=&#34;hot-water-system&#34;&gt;HOT WATER SYSTEM&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;hint: Use C-Space to create / toggle the TODO items&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; buy 300 watt heating element (or 600 and use half) 24 V&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; buy water tank&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; test system with relay in shop to ensure it works as expected
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; test system with relay in shop to ensure it works as expected
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Connect Plumbing under shop bench to tank&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Run 24V connection via relay to control hot water tank&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; experiment with running both elements or just one&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Connect Plumbing under shop bench to tank&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Run 24V connection via relay to control hot water tank&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; experiment with running both elements or just one&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; come up with a plan on how often to turn it on and run it&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; order more 8Ga (i think) wire&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; create document describing the points in the plumbing system like the solar system is described&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Stinger relay needs ~1A at 10 to 12V to switch on. What will control that?&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -293,6 +294,35 @@ Might be a good time to also drain the fluids and replace with Toyota specific&l
       <description>PAINT THE TRUCK Thinking of designs to paint on the truck</description>
       <content>&lt;h1 id=&#34;paint-the-truck&#34;&gt;PAINT THE TRUCK&lt;/h1&gt;
 &lt;p&gt;Thinking of designs to paint on the truck&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaimcbride.github.io/projects/pamela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/projects/pamela/</guid>
+      <description>Pamela Fan Project TRACK HOURS Initial visit 0.5 fan spec 12/4 0.5 FAN SPEC Needs to be 24V (or have converter) 30CFM 4 inch pipe max length? Sun Mar Fan OTHER NEEDS Powered by 24V Dimmer Switch to adjust fan speed </description>
+      <content>&lt;h1 id=&#34;pamela-fan-project&#34;&gt;Pamela Fan Project&lt;/h1&gt;
+&lt;h2 id=&#34;track-hours&#34;&gt;TRACK HOURS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial visit 0.5&lt;/li&gt;
+&lt;li&gt;fan spec 12/4 0.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fan-spec&#34;&gt;FAN SPEC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Needs to be 24V (or have converter)&lt;/li&gt;
+&lt;li&gt;30CFM&lt;/li&gt;
+&lt;li&gt;4 inch pipe&lt;/li&gt;
+&lt;li&gt;max length?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://usa.sun-mar.com/product/12-volt-fan/&#34;&gt;Sun Mar Fan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-needs&#34;&gt;OTHER NEEDS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Powered by 24V&lt;/li&gt;
+&lt;li&gt;Dimmer Switch to adjust fan speed&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
@@ -395,6 +425,75 @@ ACTIONS Take off the rear wheels and drums to look at the pads and the drums Ord
 &lt;/li&gt;
 &lt;li&gt;List of workshops: &lt;a href=&#34;https://photography-workshops.directory/photography-workshop-region/us-south-west/&#34;&gt;https://photography-workshops.directory/photography-workshop-region/us-south-west/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;do-what-when&#34;&gt;Do What When&lt;/h2&gt;
+&lt;p&gt;Day #1: ARRIVE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hanging out at Railyard starting at 5pm (? time ?)&lt;/li&gt;
+&lt;li&gt;Meet in the late afternoon / early evening for drinks&lt;/li&gt;
+&lt;li&gt;Talk about what we will be doing the next few days&lt;/li&gt;
+&lt;li&gt;Informal meeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Day #2: DOWNTOWN SANTA FE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;9:00am: Meet for coffee at Iconik downtown
+&lt;ul&gt;
+&lt;li&gt;Introductions&lt;/li&gt;
+&lt;li&gt;Talk about plans for the coming days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;11am: Walk to William Clift Gallery for meeting (to be confirmed)
+&lt;ul&gt;
+&lt;li&gt;Alternative 1: Foto Forum Santa Fe (Sage Paisner)&lt;/li&gt;
+&lt;li&gt;Alternative 2: Radius Books&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;12:30 / 1pm: LUNCH&lt;/li&gt;
+&lt;li&gt;2pm - 3:00pm: Photographic walk in downtown Santa Fe / Plaza area&lt;/li&gt;
+&lt;li&gt;3pm - 4pm: Palace of the Governor Photo Archive (?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Day #3: FIELD TRIP &amp;amp; PHOTO-EYE BOOKS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;9:00am: Meet for coffee at Iconik downtown&lt;/li&gt;
+&lt;li&gt;Get in van(s) after coffee&lt;/li&gt;
+&lt;li&gt;Drive to Photo Eye Books&lt;/li&gt;
+&lt;li&gt;Depart Photo Eye&lt;/li&gt;
+&lt;li&gt;Pickup lunch in Espanola at El Parasol&lt;/li&gt;
+&lt;li&gt;Drive to Plaza Blanca
+&lt;ul&gt;
+&lt;li&gt;Hike; Photograph; Eat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Drive back to Santa Fe&lt;/li&gt;
+&lt;li&gt;Free Time to Relax&lt;/li&gt;
+&lt;li&gt;Meet for Group Dinner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Day #4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;8:30am: Meet for Coffee&lt;/li&gt;
+&lt;li&gt;Drive to Madrid on 14 (see unphotographable mountain)&lt;/li&gt;
+&lt;li&gt;Drive to Galisteo: photograph in cemetery and town&lt;/li&gt;
+&lt;li&gt;Drive to Lamy: photograph church and train station&lt;/li&gt;
+&lt;li&gt;Lunch on the mesa. See Kai&amp;rsquo;s House.
+&lt;ul&gt;
+&lt;li&gt;How to get food there?&lt;/li&gt;
+&lt;li&gt;Take orders ahead of time and have it waiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Walk and photograph on the mesa&lt;/li&gt;
+&lt;li&gt;Drive back to Santa Fe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Day #5: DEPARTURE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;8:30am: Meet for Breakfast&lt;/li&gt;
+&lt;li&gt;Discussion and wrap-up&lt;/li&gt;
+&lt;li&gt;Say goodbye and make plans for follow-up Zoom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ONLINE ZOOM MEETING 2 WEEKS LATER&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;people submit their top 20/30 photographs ahead of time&lt;/li&gt;
+&lt;li&gt;show and tell&lt;/li&gt;
+&lt;li&gt;feedback&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
@@ -405,7 +504,7 @@ ACTIONS Take off the rear wheels and drums to look at the pads and the drums Ord
       
       <guid>https://kaimcbride.github.io/projects/solar-upgrade/</guid>
       <description>SOLAR UPGRADE This is a list of changes to make to the solar power system to improve the usage going forward.
-GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on the shop improve use of other solar panels make use of metal backing for heat dissipation have better access to DC power distribution for the shop, porch, and cabin general reorganization of the layout of equipment in the box direct connection from battery to inverter proper sized wire for critical connections PLANNING Take photographs and make measurements of all equipment currently in the box Make new layout of items in the box 2x Charge Controllers Direct path from battery to the Inverter Remove Battery disconnect switch Larger 12V fuseblock?</description>
+GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on the shop improve use of other solar panels make use of metal backing for heat dissipation have better access to DC power distribution for the shop, porch, and cabin general reorganization of the layout of equipment in the box direct connection from battery to inverter proper sized wire for critical connections PLANNING Take photographs and make measurements of all equipment currently in the box [O] Make new layout of items in the box 2x Charge Controllers Direct path from battery to the Inverter Remove Battery disconnect switch Larger 12V fuseblock?</description>
       <content>&lt;h1 id=&#34;solar-upgrade&#34;&gt;SOLAR UPGRADE&lt;/h1&gt;
 &lt;p&gt;This is a list of changes to make to the solar power system to improve the usage going forward.&lt;/p&gt;
 &lt;h2 id=&#34;goals-for-the-upgrade&#34;&gt;GOALS FOR THE UPGRADE&lt;/h2&gt;
@@ -420,17 +519,17 @@ GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on th
 &lt;/ul&gt;
 &lt;h2 id=&#34;planning&#34;&gt;PLANNING&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Take photographs and make measurements of all equipment currently in the box&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Make new layout of items in the box
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Take photographs and make measurements of all equipment currently in the box&lt;/li&gt;
+&lt;li&gt;[O] Make new layout of items in the box
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2x Charge Controllers&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Direct path from battery to the Inverter&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Battery disconnect switch&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Larger 12V fuseblock? Or external fuseblocks elsewhere?&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2x Charge Controllers&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Direct path from battery to the Inverter&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Battery disconnect switch&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Larger 12V fuseblock? Or external fuseblocks elsewhere?&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Robust bus bar for 24V + and -&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Label Wire Gauge Sizes&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add PV Disconnects&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Size of metal cooling plate needed for essential items?&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Label Wire Gauge Sizes&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add PV Disconnects&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Size of metal cooling plate needed for essential items?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Order items needed to accomplish new plan
@@ -438,20 +537,20 @@ GOALS FOR THE UPGRADE incorporate 2nd Victron CC to power the solar panels on th
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Wire in appropriate gauges&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Design new box
+&lt;li&gt;[o] Design new box
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; should it be top or side opening?&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; size (with room to alter / grow)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; limitation in the shop on the size or design&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; size (with room to alter / grow)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; limitation in the shop on the size or design&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Can there be a temporary plan before the new box to get 2nd CC installed&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Can there be a temporary plan before the new box to get 2nd CC installed&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; find better location for the shop solar panels and raise them to 57 degrees for winter&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;actions&#34;&gt;ACTIONS&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make new box&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make placeholders for each item and make sure everything will fit as expected&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make new box&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; make placeholders for each item and make sure everything will fit as expected&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; move shop solar panels&lt;/li&gt;
 &lt;/ul&gt;
 </content>

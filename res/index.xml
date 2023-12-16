@@ -28,7 +28,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaimcbride.github.io/res/cabin-plumbing/</guid>
-      <description>ATARAXIA PLUMBING NOTES GENERAL NOTES 3/4 WIRSBO PEX-A 9/16x24 IKEA faucet connector is the same as 3/8 compression EQUIPMENT 12V Pump: Pressure Tank Filters Hot Water Heater: Heating Element replaceable unit is ___ Expansion Tank </description>
+      <description>ATARAXIA PLUMBING NOTES GENERAL NOTES 3/4 WIRSBO PEX-A 9/16x24 IKEA faucet connector is the same as 3/8 compression EQUIPMENT 12V Pump: Pressure Tank Filters Hot Water Heater: Heating Element replaceable unit is ___ Expansion Tank Stinger 200Amp Relay Stinger Manual Needs 10 to 16V DC at 1amp to switch </description>
       <content>&lt;h1 id=&#34;ataraxia-plumbing-notes&#34;&gt;ATARAXIA PLUMBING NOTES&lt;/h1&gt;
 &lt;h2 id=&#34;general-notes&#34;&gt;GENERAL NOTES&lt;/h2&gt;
 &lt;ul&gt;
@@ -47,7 +47,12 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Expansion Tank&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Stinger 200Amp Relay
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdn.shopify.com/s/files/1/0311/6485/8503/files/spg35.pdf?353&#34;&gt;Stinger Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Needs 10 to 16V DC at 1amp to switch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -185,6 +190,9 @@ wpa-psk PASSWORD
 ex: turn off the LED
 echo none |sudo tee /sys/class/leds/pwmled/trigger
 values: none; default-on; heartbeat&lt;/p&gt;
+&lt;h2 id=&#34;remote-ssh-access&#34;&gt;Remote SSH access&lt;/h2&gt;
+&lt;p&gt;ssh &lt;a href=&#34;mailto:root@10.0.0.244&#34;&gt;root@10.0.0.244&lt;/a&gt;
+pass: khadas&lt;/p&gt;
 </content>
     </item>
     
