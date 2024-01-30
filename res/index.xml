@@ -59,6 +59,38 @@
     
     <item>
       <title></title>
+      <link>https://kaimcbride.github.io/res/debbie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaimcbride.github.io/res/debbie/</guid>
+      <description>Debbie Solar System Batteries Duracell 6V sligc115 230Ah 4S to create 24V 3P to create 690Ah Total WattHour is 16,560Wh, but at 50% discharge 8,280Wh Or, 345Ah at 50% discharge
+Shunt Installed a BMV-700 Victron Smart Shunt
+Charge Controller Inverter Trace
+Notes Battery capacity: 690 aH Charged Voltage: 14.1 Tail current: 4% Peukert Exponent: 1.25 or 1.3 Charge efficiency factor: 94% Low SOC Relay: 50/50</description>
+      <content>&lt;h1 id=&#34;debbie-solar-system&#34;&gt;Debbie Solar System&lt;/h1&gt;
+&lt;h2 id=&#34;batteries&#34;&gt;Batteries&lt;/h2&gt;
+&lt;p&gt;Duracell 6V sligc115 230Ah
+4S to create 24V
+3P to create 690Ah
+Total WattHour is 16,560Wh, but at 50% discharge 8,280Wh
+Or, 345Ah at 50% discharge&lt;/p&gt;
+&lt;h2 id=&#34;shunt&#34;&gt;Shunt&lt;/h2&gt;
+&lt;p&gt;Installed a BMV-700 Victron Smart Shunt&lt;/p&gt;
+&lt;h2 id=&#34;charge-controller&#34;&gt;Charge Controller&lt;/h2&gt;
+&lt;h2 id=&#34;inverter&#34;&gt;Inverter&lt;/h2&gt;
+&lt;p&gt;Trace&lt;/p&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Battery capacity: 690 aH
+Charged Voltage: 14.1
+Tail current: 4%
+Peukert Exponent: 1.25 or 1.3
+Charge efficiency factor: 94%
+Low SOC Relay: 50/50&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kaimcbride.github.io/res/digital-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -659,6 +691,20 @@ Take the Absorption voltage minus 0.2 V and a Tail Current of 5% for 5 minutes. 
 &lt;p&gt;Discharge floor sent to 10 to 15% on the BMV Monitor&lt;/p&gt;
 &lt;h2 id=&#34;low-temperature&#34;&gt;LOW TEMPERATURE&lt;/h2&gt;
 &lt;p&gt;Battery must not be charged below 32F. Discharge okay.&lt;/p&gt;
+&lt;h2 id=&#34;off-grid-garage-recommendations&#34;&gt;OFF GRID GARAGE RECOMMENDATIONS&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xBu7ScAdKrg&#34;&gt;MPPT SETTINGS VIDEO&lt;/a&gt;
+He recommends these values:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Absorption: 3.45V per cell, 8 cells in our battery, so 27.6V&lt;/li&gt;
+&lt;li&gt;Float: 3.35 per cell, 26.8V&lt;/li&gt;
+&lt;li&gt;EXPERT:
+&lt;ul&gt;
+&lt;li&gt;Tail Current: 1.0A&lt;/li&gt;
+&lt;li&gt;Absorption Time: 2.0hrs&lt;/li&gt;
+&lt;li&gt;Re-bulk: 1.0V (I might want to change this value)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
@@ -670,7 +716,7 @@ Take the Absorption voltage minus 0.2 V and a Tail Current of 5% for 5 minutes. 
       <guid>https://kaimcbride.github.io/res/solar-equipment/</guid>
       <description>ATARAXIA SOLAR POWER EQUIPMENT Solar Panel (6) HQST 190W 12V Monocrystalline Solar Panel Parallel connection of three pairs: 24V @190 + 24V @190 + 24V @190 == 24V Maximum 570W
 -Panel Specs-
-Max Power at STC:190W Open Circuit Voltage:24.3v Short Circuit Current:10.15A Opitmum Operating Voltage: 20.3V Optimum Operating Current: 9.3A Dimensions:60 x 26.8 x 1.4 in (1489 x 670 x 35 mm) Weight:24.2 lbs (11 kg) NOTE: Have seen just 4 panels producing 36V; 19.</description>
+Max Power at STC:190W Open Circuit Voltage:24.3v Short Circuit Current:10.15A Optimum Operating Voltage: 20.3V Optimum Operating Current: 9.3A Dimensions:60 x 26.8 x 1.4 in (1489 x 670 x 35 mm) Weight:24.2 lbs (11 kg) NOTE: Have seen just 4 panels producing 36V; 19.</description>
       <content>&lt;h1 id=&#34;ataraxia-solar-power-equipment&#34;&gt;ATARAXIA SOLAR POWER EQUIPMENT&lt;/h1&gt;
 &lt;h2 id=&#34;solar-panel&#34;&gt;Solar Panel&lt;/h2&gt;
 &lt;p&gt;(6) HQST 190W 12V Monocrystalline Solar Panel
@@ -680,7 +726,7 @@ Parallel connection of three pairs: 24V @190 + 24V @190 + 24V @190 == 24V Maximu
 &lt;li&gt;Max Power at STC:190W&lt;/li&gt;
 &lt;li&gt;Open Circuit Voltage:24.3v&lt;/li&gt;
 &lt;li&gt;Short Circuit Current:10.15A&lt;/li&gt;
-&lt;li&gt;Opitmum Operating Voltage: 20.3V&lt;/li&gt;
+&lt;li&gt;Optimum Operating Voltage: 20.3V&lt;/li&gt;
 &lt;li&gt;Optimum Operating Current: 9.3A&lt;/li&gt;
 &lt;li&gt;Dimensions:60 x 26.8 x 1.4 in (1489 x 670 x 35 mm)&lt;/li&gt;
 &lt;li&gt;Weight:24.2 lbs (11 kg)&lt;/li&gt;
